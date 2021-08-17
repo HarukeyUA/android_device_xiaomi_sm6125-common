@@ -103,6 +103,9 @@ DEVICE_FRAMEWORK_MANIFEST_FILE := $(COMMON_PATH)/configs/manifests/framework_man
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/configs/manifests/manifest.xml
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/configs/manifests/compatibility_matrix.xml
 
+# LMKD
+TARGET_LMKD_STATS_LOG := true
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_trinket
 TARGET_RECOVERY_DEVICE_MODULES := libinit_trinket
